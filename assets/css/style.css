@@ -1,0 +1,21 @@
+.spinner{
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(223, 204, 223);
+}
+
+.heading{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
